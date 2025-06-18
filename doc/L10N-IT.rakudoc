@@ -1,0 +1,41 @@
+=begin pod
+
+=head1 NAME
+
+L10N::IT - Italian localization of Raku
+
+=head1 SYNOPSIS
+
+=begin output
+$ itaku -e 'dillo "Ciao Mondo"'
+Ciao Mondo
+=end output
+
+=begin code :lang<raku>
+
+use L10N::IT;
+dillo "Ciao Mondo";
+
+=end code
+
+=head1 DESCRIPTION
+
+The C<L10N::IT> distribution contains the logic to provide a Italian
+localization of the Raku Programming Language.  It installs a
+C<itaku> executable that will automatically activate the Italian
+localization.  And it allows one to use the Italian localization
+in selected programs with a C<use L10N::IT> statement.
+
+=head1 AUTHORS
+
+JJ Merelo
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2023, 2025 Raku Localization Team
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4
