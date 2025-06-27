@@ -1,7 +1,7 @@
 # This file contains the Italian Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-18T15:48:21+02:00 by ./update-localization
+#- Generated on 2025-06-27T18:36:31+02:00 by update-localization.raku
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::IT {
