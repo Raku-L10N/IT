@@ -13,6 +13,7 @@ Ciao Mondo
 
 =begin code :lang<raku>
 
+# Must have RAKUDO_RAKUAST=1 environment variable set
 use L10N::IT;
 dillo "Ciao Mondo";
 
